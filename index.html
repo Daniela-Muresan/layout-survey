@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Layout Survey</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Two pages of survey">
+        <meta name="keywords" content="Survey">
+        <meta name="author" content="Daniela Muresan">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet"> -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="resources/main.css">
+    </head>
+    <body>
+        <div class="page-wrapper">
+            <header class="header-wrapper">
+                <div class="header-img-wrapper">
+                    <img src="assets/step-1.png" alt="step-1-img">
+                </div> 
+                
+                <div class="survey-title">
+                    <h1>Notification Survey</h1>
+                </div>
+            </header>
+            
+            <form>
+                <div class="survey-wrapper">
+                    <div class="survey-content">
+                        <div class="info-wrapper">
+                            <div>We're working on our notification system to make our product work better.</div>
+                            <div>The survey consists in several questions and usually takes 5-7 minutes to complete.</div>
+                        </div>
+                        <div class="form-wrapper">
+                            
+                            <label for="emailInput">Enter your email:</label>
+                            <input class="email-input" tabindex="1" required type="email" id="emailInput" name="UserEmail" placeholder="Your answer">
+
+                            <div class="user-position-question">
+                                <div class="question">Are you an admin or a member on our Board?</div>
+                                <div class="answer">
+                                    <input type="radio" tabindex="2" id="Admin" name="userPosition" value="Admin">
+                                    <label for="Admin">Admin</label>
+                                </div>                 
+                                <div class="answer">
+                                    <input  type="radio" tabindex="3" id="Member" name="userPosition" value="Admin">
+                                    <label for="Member">Member</label>
+                                </div>
+                            </div> 
+
+                            <div class="colaboration-question">
+                                <div class="question">How do you collaborate in our Board?</div>
+                            
+                                <div class="answer">
+                                    <input type="radio" tabindex="4" id="CreateEdit" name="collaboration" value="CreateEdit">
+                                    <label for="CreateEdit">Create and edit content</label>
+                                </div>                              
+                                <div class="answer">
+                                    <input  type="radio" tabindex="5" id="Comment" name="collaboration" value="Comment">
+                                    <label for="Comment">Comment and leave comment</label>
+                                </div>
+                                <div class="answer">
+                                    <input  type="radio" tabindex="6" id="Review" name="collaboration" value="Review">
+                                    <label for="Review">Just review created comment</label>
+                                </div>
+
+                            <div class="answer">
+                                <input  type="radio" tabindex="7" id="Other" name="collaboration" value="Other">
+                                <label for="Other">Other:</label>
+                           
+                                <input class="other-text" tabindex="8" type="text" name="collaborationText">
+                        
+                            </div>  
+                        </div>             
+                </div>              
+            </div> 
+            <button>
+                <a href="step2-page.html">Next</a>
+                
+            </button>
+        </form>
+        
+    </div>
+
+        
+    </body>
+</html>
