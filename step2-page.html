@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Layout Survey</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Two pages of survey">
+    <meta name="keywords" content="Survey">
+    <meta name="author" content="Daniela Muresan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="resources/main.css">
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <header class="header-wrapper">
+            <div class="header-img-wrapper">
+                <img src="assets/step-2.png" alt="step-2-img">
+            </div>
+
+            <div class="survey-title">
+                <h1>Notification Survey</h1>
+            </div>
+        </header>
+
+        <form>
+            <div class="survey-wrapper">
+                <div class="survey-content">
+                    <div class="form-wrapper">
+                        <div class="recomand-question">
+                            <div class="question">Would you recommend our Board to other users?</div>
+                            <div class="answer boxes-wrapper">
+                                <div class="individual-box-wrapper">
+                                    <input type="radio" id="1" name="likely" value="1">
+                                    <label for="1">1</label>
+    
+                                </div>
+                                <div class="individual-box-wrapper">
+                                    <input type="radio" id="2" name="likely" value="2">
+                                    <label for="2">2</label>
+                                </div>
+                                <div class="individual-box-wrapper">
+                                    <input type="radio" id="3" name="likely" value="3">
+                                    <label for="3">3</label>
+                                </div>
+                                <div class="individual-box-wrapper">
+                                    <input type="radio" id="4" name="likely" value="4">
+                                    <label for="4">4</label>
+                                </div>
+                                <div class="individual-box-wrapper">
+                                    <input type="radio" id="5" name="likely" value="5">
+                                    <label for="5">5</label>
+                                </div>
+                                <div class="text-explain">
+                                    <div>Not at all likely</div>
+                                    <div>Extremely likely</div>
+                                </div>
+                            </div> 
+                        </div>
+                            <div class="documentation-question">
+                                <div class="question">Pick the three things you find most important with the integration documentation:</div>
+                                
+                                <div class="answer">
+                                    <input type="checkbox" id="tutorials" name="documentation">
+                                    <label for="tutorials">Tutorials</label>
+                                </div>
+
+                                <div class="answer">
+                                    <input type="checkbox" id="api" name="api">
+                                    <label for="api">API Reference</label>
+                                </div>
+
+                                <div class="answer">
+                                    <input type="checkbox" id="codeExamples" name="documentation">
+                                    <label for="codeExamples">Inline code examples</label>
+                                </div>
+
+                                <div class="answer">
+                                    <input type="checkbox" id="consistentContent" name="documentation">
+                                    <label for="consistentContent">Clear consistent content</label>
+                                </div>
+
+                                <div class="answer">
+                                    <input type="checkbox" id="runnableExample" name="documentation">
+                                    <label for="runnableExample">Runnable example repos</label>
+                                </div>
+
+                                <div class="answer">
+                                    <input type="checkbox" id="support" name="documentation">
+                                    <label for="support">Support</label>
+                                </div>
+
+                                <div class="answer">
+                                    <input type="checkbox" id="navSearch" name="documentation">
+                                    <label for="navSearch">Navigation & search</label>
+                                </div>
+
+                                <div class="answer">
+                                    <input type="checkbox" id="design" name="documentation">
+                                    <label for="design">Design & usability</label>
+                                </div>
+                            </div> 
+                            
+                            <div class="page-experience">
+                                <div class="question">How would you score your navigation experience so far?</div>
+                               <div class="answer exper-boxes-wrapper">
+                                    <div class="individual-exper-box-wrapper">
+                                        <input type="radio" id="1" name="experience" value="1">
+                                        <label for="1">
+                                            <img src="assets/expectations-level-1.png" alt="experience-level-1">                                           
+                                        </label>
+
+                                        <input type="radio" id="2" name="experience" value="2">
+                                        <label for="2">
+                                            <img src="assets/expectations-level-2.png" alt="experience-level-2">                                           
+                                        </label>
+                                        
+                                        <input type="radio" id="3" name="experience" value="3">
+                                        <label for="3">
+                                            <img src="assets/expectations-level-3.png" alt="experience-level-3">                                           
+                                        </label>
+
+                                        <input type="radio" id="4" name="experience" value="4">
+                                        <label for="4">
+                                            <img src="assets/expectations-level-4.png" alt="experience-level-4">                                           
+                                        </label>
+
+                                        <input type="radio" id="5" name="experience" value="5">
+                                        <label for="5">
+                                            <img src="assets/expectations-level-5.png" alt="experience-level-5">                                           
+                                        </label>
+
+                                        <div class="text-explain expectation">
+                                            <div>Didn't meet expectation</div>
+                                            <div>Exceeded expectation</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="button-wrapper">
+                    <button class="back">
+                        <a href="index.html">Back</a>
+                    </button>
+                    <button class="send" type="submit">
+                         <a href="step2-page.html">Send</a>
+                    </button>
+                </div>
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
