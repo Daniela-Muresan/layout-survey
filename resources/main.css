@@ -40,6 +40,7 @@ html,body{
 }
 
 /*form*/
+/* in UI as fi lasat putna spatiere pt form, este putin inghesuit */
 form{
     background-color: #d3d3d3;
 }
@@ -162,7 +163,7 @@ div.individual-box-wrapper{
 
 /* Nu imi dau seama de ce nu imi tine cont de descendenta, de clasa de la care pleaca
 Daca merg si selectez casutele de la ultima intrebare se selecteaza si cele de la prima */
-
+/* iti tine cont, dar nu ai nici un input checked */
 .individual-box-wrapper input:checked ~label{
     background-color: #38daa1;
 }
